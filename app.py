@@ -16,5 +16,3 @@ def home():
     return  render_template("index.html" , url = image_url[1])
 
 
-if __name__ == "__main__":
-    app.run()
