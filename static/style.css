@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Proza+Libre&family=Tilt+Warp&display=swap');
+
+body{
+    background-color: black;
+    color: white;
+}
+
+#img{
+
+        filter: brightness(120%);
+        filter: contrast(120%);
+        filter: drop-shadow(12px 12px 12px rgb(42, 43, 42));
+
+}
+
+#Title{
+
+    font-size: 40px;
+    font-family: 'Proza Libre', sans-serif;
+    font-weight: bold;
+    background: linear-gradient( to right, #521feb, #ff1f08, #692edd, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
