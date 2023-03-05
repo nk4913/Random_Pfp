@@ -14,6 +14,6 @@ class Pfp:
             "X-RapidAPI-Host": "any-anime.p.rapidapi.com"
         }
 
-        response = requests.request("GET", self.url, headers=self.headers , timeout=2)
+        response = requests.request("GET", self.url, headers=self.headers , timeout=8)
 
         return response.text
